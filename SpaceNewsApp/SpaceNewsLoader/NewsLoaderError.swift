@@ -7,11 +7,10 @@
 
 import Foundation
 
-enum NewsLoaderError: String, Error {
-    case invalidRequestUrl          = "Invalid request url"
-    case invalidResponse            = "Invalid response from the server"
-    case parsingError               = "Coldn't parse recieveddata"
-    case badimageDataUrl            = "Invalid URL to image data"
-    case urlSessionError            = "Error during connection with a server"
+enum NewsLoaderError: Error {
+    case invalidRequestUrl
+    case invalidResponse
+    case badimageDataUrl
+    case urlSessionError
     
 }

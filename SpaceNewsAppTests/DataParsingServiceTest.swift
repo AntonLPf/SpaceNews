@@ -49,4 +49,17 @@ class DataParsingServiceTest: XCTestCase {
         }
         XCTAssertEqual(expectedData, decodedData)
     }
+    
+    func test_data_parser_return_nil() {
+        guard let url = bundle.url(forResource: "SpaceNewsIncorrect", withExtension: "json") else {
+            XCTFail("Missing file: User.json")
+            return
+        }
+        
+        var jsonData: Data
+        jsonData = try! Data(contentsOf: url)
+        let decodedData: Set<RawNewsItem>? = sut.parseData(jsonData)
+        XCTAssertNil(decodedData)
+    }
+    
 }

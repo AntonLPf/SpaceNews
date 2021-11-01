@@ -10,11 +10,7 @@ import SwiftUI
 
 class NewsManager: ObservableObject {
     
-    private let newsLoaderService: NewsLoaderService
-    
-    init(newsLoaderService: NewsLoaderService = NewsLoaderService.shared) {
-        self.newsLoaderService = newsLoaderService
-    }
+    private let newsLoaderService = NewsLoaderService.shared
     
     func getFreshNews(from context: NSManagedObjectContext) async {
         await getNews(with: context)
@@ -47,7 +43,7 @@ class NewsManager: ObservableObject {
         do {
             let data = try await loader.fetchNewsRawData()
             guard let decodedRawData: Set<RawNewsItem> = parser.parseData(data) else {
-                fatalError()// TODO: resolve
+                return
             }
             for item in decodedRawData {
                 if isFresh(item, in: context) {
@@ -112,9 +108,7 @@ class NewsManager: ObservableObject {
         }
         return nil
     }
-    
-    
-    
+
     static func fetchRequest(_ predicate: NSPredicate) -> NSFetchRequest<NewsItem> {
         let request = NSFetchRequest<NewsItem>(entityName: "NewsItem")
         request.sortDescriptors = [NSSortDescriptor(key: "id", ascending: false)]

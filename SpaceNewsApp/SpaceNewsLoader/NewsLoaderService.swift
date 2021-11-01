@@ -8,12 +8,7 @@
 import Foundation
 import SwiftUI
 
-protocol NewsLoaderServiceProtocol {
-    func fetchNewsRawData() async throws -> Data
-    func loadImage(for newsItem: NewsItem) async throws -> Data?
-}
-
-struct NewsLoaderService: NewsLoaderServiceProtocol {
+struct NewsLoaderService {
     
     static let shared = NewsLoaderService()
     
@@ -26,7 +21,7 @@ struct NewsLoaderService: NewsLoaderServiceProtocol {
         do {
             let (data, response) = try await URLSession.shared.data(for: dataRequest)
             let serverResponse = response as? HTTPURLResponse
-            guard serverResponse?.statusCode == 200 else { throw NewsLoaderError.invalidResponse } // TODO: test
+            guard serverResponse?.statusCode == 200 else { throw NewsLoaderError.invalidResponse }
             print("News data recieved from the server")
             return data
         } catch {
@@ -35,7 +30,7 @@ struct NewsLoaderService: NewsLoaderServiceProtocol {
     }
     
     func loadImage(for newsItem: NewsItem) async throws -> Data? {
-        guard let url = newsItem.imageUrl else { throw NewsLoaderError.badimageDataUrl } // TODO: test
+        guard let url = newsItem.imageUrl else { throw NewsLoaderError.badimageDataUrl }
         let dataRequest = URLRequest(url: url)
         do {
             let (data, response) = try await URLSession.shared.data(for: dataRequest)

@@ -16,8 +16,6 @@ extension NewsItem {
     
 }
 
-
-
 private let itemFormatter: DateFormatter = {
         let formatter = DateFormatter()
     formatter.locale = .current

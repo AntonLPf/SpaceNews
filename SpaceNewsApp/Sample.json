@@ -1,0 +1,162 @@
+[
+  {
+    "id": 11289,
+    "title": "L3 Harris wins $120 million contract to upgrade Space Force electronic jammers",
+    "url": "https://spacenews.com/l3-harris-wins-120-million-contract-to-upgrade-space-force-electronic-jammers/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2021/10/200312-F-GR961-1030.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "The U.S. Space Force awarded L3Harris Technologies a $120.7 million contract to upgrade a ground-based communications jammer used to block adversaries’ satellite transmissions.",
+    "publishedAt": "2021-10-22T23:13:11.000Z",
+    "updatedAt": "2021-10-22T23:13:11.318Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 11288,
+    "title": "NASA targets February launch for Artemis 1 moon mission",
+    "url": "https://spaceflightnow.com/2021/10/22/nasa-targets-february-launch-for-artemis-1-moon-mission/",
+    "imageUrl": "https://spaceflightnow.com/wp-content/uploads/2021/10/KSC-20211020-PH-FMX01_0256large.jpg",
+    "newsSite": "Spaceflight Now",
+    "summary": "With NASA’s powerful new 322-foot-tall moon rocket fully stacked at Kennedy Space Center, managers said Friday that Feb. 12 is the soonest the unpiloted Artemis 1 mission could blast off toward lunar orbit, a date that hinges on the outcome of a critical fueling test on the launch pad in January.",
+    "publishedAt": "2021-10-22T20:33:07.000Z",
+    "updatedAt": "2021-10-23T08:01:05.746Z",
+    "featured": false,
+    "launches": [
+      {
+        "id": "65896761-b6ca-4df3-9699-e077a360c52a",
+        "provider": "Launch Library 2"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": 11287,
+    "title": "NASA Commits $28 Million to Underfunded US Jurisdictions",
+    "url": "http://www.nasa.gov/press-release/nasa-commits-28-million-to-underfunded-us-jurisdictions",
+    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/edu_epscor-r3-80nssc19m0085_2021.jpeg?itok=FFf4yEio",
+    "newsSite": "NASA",
+    "summary": "NASA has awarded $28 million to fund the next five years of research infrastructure development across 28 jurisdictions.",
+    "publishedAt": "2021-10-22T20:23:00.000Z",
+    "updatedAt": "2021-10-22T20:23:19.737Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 11286,
+    "title": "Ship 20 completes milestone RVac Static Fire – Musk cites ambitious path to launch",
+    "url": "https://www.nasaspaceflight.com/2021/10/ship-20-static-fire/",
+    "imageUrl": "https://www.nasaspaceflight.com/wp-content/uploads/2021/10/NSF-2021-10-22-20-28-17-151.jpg",
+    "newsSite": "NASA Spaceflight",
+    "summary": "Ship 20 completed another milestone with two Static Fire tests on Thursday evening. Following a preburner test earlier in the week, the RVac engine fired up for the first time on a Starship. Then, it fired up again, this time accompanied by a sea-level Raptor ignition, later in the evening.",
+    "publishedAt": "2021-10-22T20:09:14.000Z",
+    "updatedAt": "2021-10-23T08:01:15.781Z",
+    "featured": false,
+    "launches": [],
+    "events": [
+      {
+        "id": 421,
+        "provider": "Launch Library 2"
+      }
+    ]
+  },
+  {
+    "id": 11284,
+    "title": "China’s hypersonic vehicle test a ‘significant demonstration’ of space technology",
+    "url": "https://spacenews.com/chinas-hypersonic-vehicle-test-a-significant-demonstration-of-space-technology/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2021/10/chinese_hypersonic_gliding_vehicle-770x385@2x.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "China’s reported tests of a hypersonic orbital glide vehicle show notable advances in reusable space technology, an industry expert said.",
+    "publishedAt": "2021-10-22T19:23:10.000Z",
+    "updatedAt": "2021-10-22T19:23:10.616Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 11285,
+    "title": "Space Adventures no longer planning Crew Dragon flight",
+    "url": "https://spacenews.com/space-adventures-no-longer-planning-crew-dragon-flight/",
+    "imageUrl": "https://spacenews.com/wp-content/uploads/2021/03/crewdragon-cupola.jpg",
+    "newsSite": "SpaceNews",
+    "summary": "Space Adventures has dropped plans to fly space tourists on a high-altitude Crew Dragon flight but has not ruled out revisiting the mission concept in the future.",
+    "publishedAt": "2021-10-22T19:23:10.000Z",
+    "updatedAt": "2021-10-22T19:23:10.624Z",
+    "featured": false,
+    "launches": [],
+    "events": []
+  },
+  {
+    "id": 11283,
+    "title": "NASA Invites Media to Launch of IXPE Mission to Study X-rays in Space",
+    "url": "http://www.nasa.gov/press-release/nasa-invites-media-to-launch-of-ixpe-mission-to-study-x-rays-in-space",
+    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/casa_elements.jpg?itok=g4ZQllni",
+    "newsSite": "NASA",
+    "summary": "Media accreditation is open for the upcoming launch of NASA’s Imaging X-ray Polarimetry Explorer (IXPE) mission, which will measure polarized X-rays from exotic cosmic objects, such as black holes and neutron stars, to better understand these types of phenomena and extreme environments.",
+    "publishedAt": "2021-10-22T18:33:00.000Z",
+    "updatedAt": "2021-10-23T08:01:35.054Z",
+    "featured": false,
+    "launches": [
+      {
+        "id": "dfb2cc3b-8cd8-41b6-a83a-22b2a742ba4b",
+        "provider": "Launch Library 2"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": 11282,
+    "title": "Ariane 5 launch delayed for more ground systems checks",
+    "url": "https://spaceflightnow.com/2021/10/22/ariane-5-launch-delayed-for-more-ground-systems-checks/",
+    "imageUrl": "https://spaceflightnow.com/wp-content/uploads/2021/10/va255_pre1.jpeg",
+    "newsSite": "Spaceflight Now",
+    "summary": "Arianespace delayed the launch from French Guiana of a European Ariane 5 rocket with two geostationary communications satellites Friday to conduct more checks of ground support equipment at the spaceport. The mission, set to loft payloads for SES and the French military, is the final Ariane 5 flight before a mission in December with the James Webb Space Telescope.",
+    "publishedAt": "2021-10-22T16:43:06.000Z",
+    "updatedAt": "2021-10-22T17:04:29.955Z",
+    "featured": false,
+    "launches": [
+      {
+        "id": "7b412779-a9cd-442d-b067-1889a8f6b930",
+        "provider": "Launch Library 2"
+      }
+    ],
+    "events": []
+  },
+  {
+    "id": 11281,
+    "title": "How SpaceX ignited a new Raptor engine on Starship without an explosion",
+    "url": "https://arstechnica.com/science/2021/10/how-spacex-ignited-a-new-raptor-engine-on-starship-without-an-explosion/",
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2021/10/raptor1.jpg",
+    "newsSite": "Arstechnica",
+    "summary": "So why don't all rocket engines have giant nozzles?",
+    "publishedAt": "2021-10-22T15:28:54.000Z",
+    "updatedAt": "2021-10-22T17:04:36.377Z",
+    "featured": false,
+    "launches": [],
+    "events": [
+      {
+        "id": 421,
+        "provider": "Launch Library 2"
+      }
+    ]
+  },
+  {
+    "id": 11280,
+    "title": "Progress cargo ship relocated to new module at International Space Station",
+    "url": "https://spaceflightnow.com/2021/10/22/russian-progress-cargo-ship-relocated-to-new-module-at-international-space-station/",
+    "imageUrl": "https://spaceflightnow.com/wp-content/uploads/2021/10/progms17redock.jpg",
+    "newsSite": "Spaceflight Now",
+    "summary": "A Russian Progress supply ship docked with the new Nauka lab module at the International Space Station Friday, completing a 29-hour free flight after detaching from a different port at the complex. The relocation positions the Progress spacecraft to assist with leak checks of the Nauka module’s propulsion system.",
+    "publishedAt": "2021-10-22T14:13:06.000Z",
+    "updatedAt": "2021-10-22T17:05:03.213Z",
+    "featured": false,
+    "launches": [],
+    "events": [
+      {
+        "id": 280,
+        "provider": "Launch Library 2"
+      }
+    ]
+  }
+]
